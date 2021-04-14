@@ -1,0 +1,29 @@
+{
+  "name": "moviedb",
+  "version": "1.0.0",
+  "description": "movie db exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coditech/MovieDB.git"
+  },
+  "author": "ana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coditech/MovieDB/issues"
+  },
+  "homepage": "https://github.com/coditech/MovieDB#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.6"
+  }
+}
